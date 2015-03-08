@@ -1,6 +1,14 @@
 ## Shaarli-themes
 A collection of themes/stylesheets for [Shaarli](https://github.com/sebsauvage/Shaarli).
 
+#### Serious
+![serious theme scrot](serious.png)
+![serious theme daily](serious_daily.png)
+
+Author: Miloš Jovanović
+Source https://github.com/mrjovanovic/serious-theme-shaarli
+License: Affero GPL v.3
+
 ## Usage
 ```
 cd /your/shaarli/directory/inc/

@@ -1,0 +1,386 @@
+/* Serious theme for Shaarli
+ * https://github.com/shaarli/Shaarli 
+ * Copyright Miloš Jovanović <mjovanovic@gmail.com>
+ * Licensed under AGPL v3.0
+ *
+ * Colors:
+ * Dark - #2c3e50
+ * Red - #e74c3c
+ * Gray - #ecf0f1
+ * Light blue - #3498DB
+ * Darker blue - #2980b9
+ */
+
+html {
+	background: #ffffff;
+}
+
+body {
+    font-family: "Liberation Sans",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+input, textarea {
+    background: #ffffff;
+    box-shadow: none;
+    border-radius: 0px;
+    border: none;
+}
+
+/* Buttons */
+.bigbutton {
+    background: #2980b9;
+    box-shadow: none;
+    color: #ffffff;
+    border-style: none;
+}
+
+.smallbutton {
+    background: #2980b9;
+    box-shadow: none;
+    color: #ffffff;
+    border-style: none;
+}
+
+/* Small tab on the left of each link with edit/delete buttons. */
+.button_edit, .button_delete {
+    cursor: pointer;
+}
+
+
+.button_edit:hover, .button_delete:hover {
+	color: #e74c3c;
+}	
+
+
+.linkeditbuttons {
+    background: none;
+    border-radius: 0px;
+    box-shadow: none;
+    margin: auto auto auto 22px; 
+}
+
+#pageheader #logo {
+    display: none;
+}
+
+#pageheader #linkcount {
+    font-size: 0.7em;
+    color: #ecf0f1;
+    padding-top: 3px;
+    margin: 5px 5px 0px 0px;
+}
+
+#pageheader {
+    background: #2c3e50;
+    box-shadow: none;
+}
+
+#pageheader a {
+    background: none;
+    box-shadow: none;
+    color: #ecf0f1;
+}
+
+.tagfilter, .searchform, .addform {
+    background: #ecf0f1;
+    box-shadow: none;
+    padding: 5px 0px 5px 5px;
+    border-radius: 4px;
+    margin: 10px 0px 3px 3px;
+    color: #000;
+}
+
+.linksperpage {
+    background: none;
+    display: inline;
+    box-shadow: none;
+    border: none;
+    color: #000;
+    margin: 2px 5px 0px 2px;
+}
+
+.linksperpage input {
+    background: #ecf0f1;
+    box-shadow: 0.4px 0.4px 2px #2c3e50;
+    font-size: 0.9em;
+}
+
+.tagfilter input, .searchform input, .addform input {
+    color: #000;
+    background: #ecf0f1;
+    font-size: 0.9em;
+}
+
+.linksperpage input {
+    padding: 0;
+}
+
+.tagfilter input.bigbutton, .searchform input.bigbutton, .addform input.bigbutton {
+    background: #2980b9;
+    box-shadow: none;
+    overflow: visible;
+    position: relative;
+    border: 0;
+    padding: 0px 3px 0px 3px;
+    height: 26px;
+    border-radius: 0px 4px 4px 0px;
+    font-style: bold;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    color: #fff;
+}
+
+#shaarli_title {
+    font-style: normal;
+}
+
+#pageheader a:visited {
+    color: #ecf0f1;
+}
+
+#pageheader a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+#pageheader a:active {
+    color: #FFFFFF;
+    text-style:bold;
+}
+
+#searchcriteria {
+    padding: 4px 0px 15px 15px;
+}
+
+.paging {
+    background-color: #ffffff;
+    color: #2c3e50;
+    font-size: 0.85em;
+}
+
+.paging a:link {
+    color: #2c3e50;
+}
+
+.paging a:visited {
+    color: #2c3e50;
+}
+
+.paging a:hover {
+    color: #3498DB;
+}
+
+.paging a:active {
+    color: #2c3e50;
+    font-style: bold;
+}
+
+.paging_privatelinks img {
+     opacity: 0.3;
+}
+
+.paging_privatelinks img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.paging_current {
+    color: #2c3e50;
+}
+
+#linklist li {
+    border-top: 0px;
+    background: #ffffff;
+    margin: 5px 5px 5px 5px;
+}
+
+.linkdate, .linkarchive {
+    font-size: 0.75em;
+    color:#2c3e50;
+}
+
+.linkdate a, .linkarchive a {
+    color:#e74c3c;
+}
+
+#linklist li.private {
+    padding-left: 60px;
+    background: none;
+}
+
+#linklist li {
+    padding-left: 60px;
+}
+
+.linktitle {
+    font-size: 1.3em;
+}
+
+.linktitle a {
+    color: #2980b9;
+    margin: 0px 0px 5px 0px;
+}
+
+.linktitle a:hover {
+    color: #3498DB;
+}
+
+.linkdate, .linkarchive {
+    font-size: 0.75em;
+}
+
+.linkdate a, .linkarchive a {
+    background: none;
+    padding: 2px 0 3px 2px;
+    color: #e74c3c;
+}
+
+.linkdate a:hover {
+    color: #e74c9c9;
+}
+
+.linkurl {
+    font-size: 0.75em;
+    color: #2c3e50;
+}
+
+.linkdescription {
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    max-width: 60em;
+    overflow: auto;
+}
+
+.linktag {
+    font-size: 0.9em;
+    background: #2c3e50;
+    box-shadow: none;
+    padding: 3px 5px 3px 5px;
+    border-radius: 0px;
+    background-image: none;
+    color: #fff;
+}
+
+.linktag a {
+    color: #fff;
+}
+
+.linktag .remove {
+    color:#e74c3c;
+}
+
+#footer {
+    font-size: 0.8em
+    border-top: 0px;
+    color: #2c3e50;
+    margin: 20px auto 20px auto;
+    max-width: 27em;
+    line-height: 1.2em;
+}
+
+#footer a {
+    color: #2980b9;
+}
+
+#footer a:hover {
+    color: #3498DB;
+}
+
+#cloudtag .count {
+    color: #3498DB;
+    font-size: 1em;
+}
+
+.thumbnail {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.thumbnail img {
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 0.5px 1px #dde4e6; 
+}
+
+div.daily {
+    font-family: "Georgia", serif;
+    background: #ffffff;
+    border-bottom: 2px solid black;
+}
+
+div.dailyAbout {
+    border: none;
+    position: absolute;
+}
+
+div.dailyAbout a {
+    color: #2980b9;
+}
+
+div.dailyTitle {
+    font-family: "DejaVu Sans Light", "Liberation Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 4em;
+    padding: 10px 20px 5px 20px;
+}
+
+div.dailyDate {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+/* Individual entries in "Daily": */
+div.dailyEntry {
+    font-size: 1em;
+    border-top: none;
+}
+
+div.dailyEntry a {
+    color: #2c2e50;
+    font-family: 'Liberation Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div.dailyEntry a:hover {
+    text-decoration: none;
+    color: #3498DB;
+}
+
+div.dailyEntryTags {
+    font-size: 0.8em;
+    color: #2980b9;
+}
+
+div.dailyEntryTitle {
+    font-size: 1.6em;
+}
+
+div.dailyEntryLinkdate {
+    font-size: 0.9em;
+    color: #e74c3c;
+}
+
+div.dailyEntryThumbnail {
+    background: #ecf0f1;
+    margin: 5px 0px 5px 0px;
+}
+
+div.dailyEntryDescription {
+    font-family: 'Liberation Serif', Times, Times New Roman, serif;
+    line-height: 125%;
+    max-width: 240px;
+}
+
+@media handheld, only screen and (max-width: 480px), only screen and (max-device-width: 854px) {
+    
+    .searchform, .tagfilter {
+	width: 90% !important;
+    }
+
+    #paging_older, #paging_newer, .paging_linksperpage a {
+	background: #2980b9;
+	color: #ffffff;
+    }
+
+}
+
